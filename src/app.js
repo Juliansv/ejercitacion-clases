@@ -7,10 +7,6 @@ app.listen('3000', () => console.log('Todo bien por aca'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/home.html'));
-})
+app.get('/', )
 
-app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/about.html'));
-})
+app.get('/about', )
