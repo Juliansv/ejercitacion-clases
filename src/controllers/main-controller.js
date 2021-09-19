@@ -1,7 +1,9 @@
+const fs = require('fs');
 const path = require('path');
 
 const controller = {
-    home: (req, res) => {
+    index: (req, res) => {
+
         res.render('index');
     },
     about: (req, res) => {
